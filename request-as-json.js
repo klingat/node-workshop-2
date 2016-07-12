@@ -43,8 +43,8 @@ function getCity() {
                         else {
                             var dataForecast = res;
                             var currentWeather = dataForecast.currently.summary;
-                            console.log("The current weather is: " + colors.yellow(currentWeather));
-                            console.log("The weather for the next 5 days is:")
+                            console.log(colors.bold.underline("The current weather is:")+ " " + colors.yellow(currentWeather));
+                            console.log(colors.bold.underline("The weather for the next 5 days is:"));
                             for (var i = 0; i < 5; i++) {
                                 console.log("Day " + (i+1) + ": " + colors.rainbow(dataForecast.daily.data[i].summary));
                             }
