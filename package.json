@@ -4,6 +4,7 @@
   "description": "### Base instructions   * **If you did not finish** the exercises from the first NodeJS workshop, please complete these first.   * Fork this repository and clone it in a new Cloud9 workspace.   * All the work will be done in the `master` branch.",
   "main": "request-as-json.js",
   "dependencies": {
+    "colors": "^1.1.2",
     "request": "^2.73.0"
   },
   "devDependencies": {},

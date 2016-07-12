@@ -23,15 +23,4 @@ function requestJS(url, callback) {
 }
 
 
-// requestJS("https://maps.googleapis.com/maps/api/geocode/json?address=montreal", function(err, response) {
-//     if (err) {
-//         console.log("There was an error.");
-//     }
-//     else {
-//         console.log(response);
-//     }
-// });
-
-module.exports = {
-    requestJS: requestJS
-};
+module.exports = requestJS;
